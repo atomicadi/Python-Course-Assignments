@@ -14,4 +14,4 @@ To solve the assignment I used ChatGpt (Weizmann subscription version) only once
 
 ![image1](Day02/images/image-1.png)
 ![image2](Day02/images/image-2.png)
-![image](Day02/images/image-1.png)
+[image](Day02/images/image-1.png)
