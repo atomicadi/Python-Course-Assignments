@@ -1,6 +1,6 @@
 ## Day 2 assignment for "Basic programming skills (Python)" course
 
-In this assignment, a simple python code is written in which the translatrional partition function is solved using the user inputs.\
+In this assignment, a simple python code (q_trans-Aditya-Barman.py) is written in which the translatrional partition function is solved using the user inputs.\
 </p>
 
 $$
