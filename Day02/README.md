@@ -4,7 +4,7 @@ In this assignment, a simple python code is written in which the translatrional 
 </p>
 
 $$
-q_{trans} =  {\frac{(2πmk_BT)}{h^2}}^{3/2}  ...... (9)
+q_{trans} =  {\frac{(2πmk_BT)}{h^2}}^{3/2} V
 $$
 </p>
 
