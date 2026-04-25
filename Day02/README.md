@@ -13,5 +13,7 @@ Where, h = Planck constant, k<sub>B</sub> = Boltzmann constant, T = temperature,
 To solve the assignment I used ChatGpt (Weizmann subscription version) only once to know how to import verious types of constants (e.g., plack's constsnt, Boltzmann constant, etc.). Here is the conversation:
 
 ![image1](images/image-1.png)
+
 ![image2](images/image-2.png)
+
 ![image3](images/image-3.png)
