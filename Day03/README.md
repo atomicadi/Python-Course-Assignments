@@ -34,6 +34,12 @@ Command line to run the file:
 pytest test_calculate_q_trans.py
 ```
 
+- **Requirements**\
+1. Scipy
+2. tkinter
+3. sys.argv
+4. pytest (for my case, installed by ```pip install pytest```)
+
 - **AI Usage**
 Generally tried to write by myself by observing the previous submissions. But sometimes after writting the code, checked them with Ai (ChatGpt, Weizamann Institute subscripted version). Here are the promts:
 ```sh
