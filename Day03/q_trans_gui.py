@@ -1,3 +1,7 @@
+! Writtenn by Aditya Barman; May 03, 2026 @weizmann
+! calculating translational partition function using GUI
+
+
 import tkinter as tk
 from tkinter import messagebox
 from Calc_q_trans_library import calc_q_trans
