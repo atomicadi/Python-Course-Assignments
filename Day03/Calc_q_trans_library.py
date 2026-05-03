@@ -1,7 +1,7 @@
 # copied from Day02 and edited by Aditya Barman, Date: May. 03, 2026; @weizmann
 # calculating translational partition function
 
-def calc_q_trans(m, T, V);
+def calc_q_trans(m, T, V):
     import math
     from scipy import constants
 
