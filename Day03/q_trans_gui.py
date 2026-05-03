@@ -6,12 +6,12 @@ def run_calc():
     m = entry.get()
     T = entry.get()
     V = entry.get()
-    result, error = calc_q_trans(m, T, V)
+    q_trans, error = calc_q_trans(m, T, V)
     if error:
         messagebox.showerror("Error", error)
     else:
-        label_res.config(text=f"Tm: {result['tm']:.2f}°C\n({result['method']})")
-
+        label_res.config(text=f"Tm: {q_trans['tm']:.2f}°C\n({result['method']})")
+        
 root = tk.Tk()
 root.title("Primer Tm Calc")
 root.geometry("300x200")
