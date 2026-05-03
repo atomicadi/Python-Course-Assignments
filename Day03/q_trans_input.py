@@ -1,3 +1,6 @@
+! Writtenn by Aditya Barman; May 03, 2026 @weizmann
+! calculating translational partition function using user input
+
 from Calc_q_trans_library import calc_q_trans
 
 m = input("put the value of mass in kg unit: ")
