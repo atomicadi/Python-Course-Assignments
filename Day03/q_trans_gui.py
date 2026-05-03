@@ -13,10 +13,18 @@ def run_calc():
         label_res.config(text=f"Tm: {q_trans['tm']:.2f}°C\n({result['method']})")
         
 root = tk.Tk()
-root.title("Primer Tm Calc")
+root.title("Calculating Translational Partition function")
 root.geometry("300x200")
 
-tk.Label(root, text="Enter Sequence:").pack(pady=5)
+tk.Label(root, text="Enter m  in kg:").pack(pady=5)
+entry = tk.Entry(root)
+entry.pack(pady=5)
+
+tk.Label(root, text="Enter T  in K:").pack(pady=5)
+entry = tk.Entry(root)
+entry.pack(pady=5)
+
+tk.Label(root, text="Enter V  in m3:").pack(pady=5)
 entry = tk.Entry(root)
 entry.pack(pady=5)
 
