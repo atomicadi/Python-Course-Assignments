@@ -15,14 +15,21 @@ python q_trans_input.py
 
 ## 2. Graphical User Interface (GUI)
 For the Graphical User Interface, external ```tkinter``` library is used to set up the graphics for the calculations. The file is saved as "q_trans_gui.py".
+Command line to run the file:
 ```sh
 python q_trans_gui.py
 ```
 
 ## 3. Command-line
 For the calculation cmmand line, external ```sys.argv``` library is employed where with the prohram file the user inputs are also provided. The file is saved as "q_trans_cmdline.py".
+Command line to run the file:
 ```sh
 python q_trans_cmdline.py
 ```
 
-# pytest
+**pytest**
+Also a test file (test_calculate_q_trans.py) is generated which will check the code using the python tool ```pytest```.
+Command line to run the file:
+```sh
+pytest test_calculate_q_trans.py
+```
