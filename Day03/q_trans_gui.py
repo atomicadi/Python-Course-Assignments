@@ -1,10 +1,12 @@
 import tkinter as tk
 from tkinter import messagebox
-from Calc_q_trans_library import calculate_tm
+from Calc_q_trans_library import calc_q_trans
 
 def run_calc():
-    seq = entry.get()
-    result, error = calculate_tm(seq)
+    m = entry.get()
+    T = entry.get()
+    V = entry.get()
+    result, error = calc_q_trans(m, T, V)
     if error:
         messagebox.showerror("Error", error)
     else:
