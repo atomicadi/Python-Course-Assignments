@@ -1,3 +1,5 @@
+! Writtenn by Aditya Barman; May 03, 2026 @weizmann
+
 import sys
 from Calc_q_trans_library import calc_q_trans
 
