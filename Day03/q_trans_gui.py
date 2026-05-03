@@ -10,11 +10,11 @@ def run_calc():
     if error:
         messagebox.showerror("Error", error)
     else:
-        label_res.config(text=f"Tm: {q_trans['q_trans']:.2f}°C\n({result['method']})")
-        
+        label_res.config(text=f"The value of translational partition function is {q_trans:.2e}")
+                
 root = tk.Tk()
 root.title("Calculating Translational Partition function")
-root.geometry("300x200")
+root.geometry("600x400")
 
 tk.Label(root, text="Enter m  in kg:").pack(pady=5)
 entry = tk.Entry(root)
@@ -24,7 +24,7 @@ tk.Label(root, text="Enter T  in K:").pack(pady=5)
 entry = tk.Entry(root)
 entry.pack(pady=5)
 
-tk.Label(root, text="Enter V  in m3:").pack(pady=5)
+tk.Label(root, text="Enter V  in m3 (if no V, put 1):").pack(pady=5)
 entry = tk.Entry(root)
 entry.pack(pady=5)
 
