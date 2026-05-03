@@ -27,10 +27,11 @@ Command line to run the file:
 python q_trans_cmdline.py
 ```
 
-**pytest**
-
+- Test file
 Also a test file (test_calculate_q_trans.py) is generated which will check the code using the python tool ```pytest```.
 Command line to run the file:
 ```sh
 pytest test_calculate_q_trans.py
 ```
+
+## AI Usage
