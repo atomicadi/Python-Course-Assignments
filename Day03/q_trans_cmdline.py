@@ -1,12 +1,13 @@
 import sys
-from Calc_q_trans_library import q_trans
+from Calc_q_trans_library import calc_q_trans
 
-if len(sys.argv) < 2:
-    print(f"Usage: python {sys.argv[0]} <put your sequence here>")
-    print(f"Example: python {sys.argv[0]} GATCGATCGATCGATCGATC")
+if len(sys.argv) < 4:
+    print(f"Please, check the readme file to run properly! and tey again")
 else:
-    seq = sys.argv[1]
-    result, error = calculate_tm(seq)
+    m = sys.argv[1]
+    T = sys.argv[2]
+    V = sys.argv[3]
+    q_trans, error = calc_q_trans(m, T, V)
     if error:
         print(error)
     else:
