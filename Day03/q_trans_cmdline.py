@@ -11,4 +11,4 @@ else:
     if error:
         print(error)
     else:
-        print(f"Tm: {result['tm']:.2f}°C using {result['method']}")
+        print(f"The value of translational partition function is {q_trans:.2e}")
