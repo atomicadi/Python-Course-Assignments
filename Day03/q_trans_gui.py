@@ -10,7 +10,7 @@ def run_calc():
     if error:
         messagebox.showerror("Error", error)
     else:
-        label_res.config(text=f"Tm: {q_trans['tm']:.2f}°C\n({result['method']})")
+        label_res.config(text=f"Tm: {q_trans['q_trans']:.2f}°C\n({result['method']})")
         
 root = tk.Tk()
 root.title("Calculating Translational Partition function")
