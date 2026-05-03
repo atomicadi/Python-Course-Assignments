@@ -1,8 +1,8 @@
 from Calc_q_trans_library import calc_q_trans
 
-m = input("put the value of mass in kg unit")
-T = input("put the value of temperature in K unit")
-V = input("put the value of volume in cm3 unit)
+m = input("put the value of mass in kg unit: ")
+T = input("put the value of temperature in K unit: ")
+V = input("put the value of volume in cm3 unit: ")
 
 q_trans, error = calc_q_trans(m, T, V)
 
