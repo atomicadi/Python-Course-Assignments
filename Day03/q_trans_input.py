@@ -9,7 +9,7 @@ q_trans, error = calc_q_trans(m, T, V)
 if error:
           print(error)
 else:
-    print(
+   print("The calculated value of translational partition function (using your input) is, ", q_trans)
           
 
           
