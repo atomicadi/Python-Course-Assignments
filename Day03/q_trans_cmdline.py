@@ -1,4 +1,5 @@
 ! Writtenn by Aditya Barman; May 03, 2026 @weizmann
+! calculating translational partition function using user input
 
 import sys
 from Calc_q_trans_library import calc_q_trans
