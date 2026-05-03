@@ -34,4 +34,9 @@ Command line to run the file:
 pytest test_calculate_q_trans.py
 ```
 
-## AI Usage
+- **AI Usage**
+Generally tried to write by myself by observing the previous submissions. But sometimes after writting the code, checked them with Ai (ChatGpt). Here are the promts:
+```sh
+Check the code and debug
+how to check digit and alphabate
+```
