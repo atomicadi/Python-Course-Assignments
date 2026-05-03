@@ -34,7 +34,7 @@ Command line to run the file:
 pytest test_calculate_q_trans.py
 ```
 
-- **Requirements**\
+- **Requirements**
 1. Scipy
 2. tkinter
 3. sys.argv
