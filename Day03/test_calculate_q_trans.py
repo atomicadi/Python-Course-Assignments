@@ -12,7 +12,7 @@ def test_invalid_mass():
     # Non-numeric mass
     q_trans, error = calc_q_trans("a", "300", "1")
     
-    assert q is None
+    assert q_trans is None
     assert "mass" in error
 
 
@@ -31,10 +31,9 @@ def test_invalid_volume():
     assert q_trans is None
     assert "volume" in error
 
-
 def test_negative_input():
     # Negative values should fail (because .isdigit() rejects "-5")
-    q_trans, error = calc_q_trans("-5", "300", "10")
+    q_trans, error = calc_q_trans("-5", "300", "1")
     
     assert q_trans is None
     assert error is not None
