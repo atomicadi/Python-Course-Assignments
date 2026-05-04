@@ -21,7 +21,7 @@ python q_trans_gui.py
 ```
 
 ## 3. Command-line
-For the calculation cmmand line, external ```sys.argv``` library is employed where with the prohram file the user inputs are also provided. The file is saved as "q_trans_cmdline.py".
+For the calculation command line, external ```sys.argv``` library is employed where with the prohram file the user inputs are also provided. The file is saved as "q_trans_cmdline.py".
 Command line to run the file:
 ```sh
 python q_trans_cmdline.py
