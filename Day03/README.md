@@ -40,8 +40,8 @@ pytest test_calculate_q_trans.py
 3. sys.argv
 4. pytest (for my case, installed by ```pip install pytest```)
 
-- **AI Usage**
-Generally tried to write by myself by observing the previous submissions. But sometimes after writting the code, checked them with Ai (ChatGpt, Weizamann Institute subscripted version). Here are the promts:
+- **AI Usage**\
+Generally, tried to write by myself by observing the previous submissions. But sometimes after writting the code, checked them with Ai (ChatGpt, Weizamann Institute subscripted version). Here are the promts:
 ```sh
 Check the code and debug
 how to check digit and alphabate
