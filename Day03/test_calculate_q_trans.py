@@ -1,5 +1,5 @@
-! Writtenn by Aditya Barman; May 03, 2026 @weizmann
-! checking the calc algorithm using pytest
+# Writtenn by Aditya Barman; May 03, 2026 @weizmann
+# checking the calc algorithm using pytest
 
 from Calc_q_trans_library import calc_q_trans
 
