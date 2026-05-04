@@ -4,7 +4,7 @@
 2. Graphical User Interface (GUI) using (using ```tkinter```)
 3. Command-line (using ```sys.argv```)
 
-After coping the file "q_trand-Aditya_Barman.py" from Day02 folder into Day03, renamed it by "Calc_q_trans_library.py" and make it bussiness logic file. In the logic file scipy external library is used to gater the constants that are employed in the calculations.
+After coping the file "q_trand-Aditya_Barman.py" from Day02 folder into Day03, renamed it by "Calc_q_trans_library.py" and make it bussiness logic file. In the logic file scipy external library is used to get the constants that are employed in the calculations.
 
 ## 1. User input directly
 For user input, nothing has been changed more from the Day02's q_trand-Aditya_Barman.py file, just used as defination (```def```), add error messeges, used the logic file, and saved as a new seperate file, q_trans_input.py.
