@@ -28,9 +28,9 @@ def calc_q_trans(m, TC, T, V):
     else:
         V = int(V)
 
-    if TC = 0:
+    if TC == 0:
         T = T + 273.15
-    elif TC = 1:
+    elif TC == 1:
         T = (T + 459.67)/1.8
     else:
         T = T
