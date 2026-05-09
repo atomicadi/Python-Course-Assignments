@@ -1,4 +1,4 @@
-## Day 2 assignment for "Basic programming skills (Python)" course
+# Day 2 assignment for "Basic programming skills (Python)" course
 
 In this assignment, a simple python code (q_trans-Aditya-Barman.py) is written in which the translatrional partition function is solved using the user inputs.
 </p>
@@ -10,7 +10,7 @@ $$
 
 Where, h = Planck constant, k<sub>B</sub> = Boltzmann constant, T = temperature, m = mass of molecule, and V = volume element.
 
-# Importance of translatrional partition function
+## Importance of translatrional partition function
 - nfelkfnel
 
 To solve the assignment I used ChatGpt (Weizmann subscription version) only once to know how to import verious types of constants (e.g., plack's constsnt, Boltzmann constant, etc.). Here is the conversation:
