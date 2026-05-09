@@ -20,9 +20,8 @@ The pyhton code to do the above mentioned calculation is encoded in the file, ``
 - ```scipy``` to add the value of constants.
 - If scipy is not present one can installed that by using the pip installer. (I am using IOS terminal to install that and aslo to run the python code). ```pip install scipy```
 
-
-
-
+## Run the code
+To run the code: ```python q_trans-Aditya_Barman.py```
 
 ## Usage of AI
 To solve the assignment I used ChatGpt (Weizmann subscription version) only once to know how to import verious types of constants (e.g., plack's constsnt, Boltzmann constant, etc.). Here is the conversation:
