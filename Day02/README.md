@@ -15,6 +15,7 @@ Where, h = Planck constant, k<sub>B</sub> = Boltzmann constant, T = temperature,
 - The translational partition function is used to calculate: Internal energy, Entropy, Helmholtz free energy, Pressure, Heat capacity, etc.
 - It provides the microscopic basis for macroscopic gas laws. From the translational partition function, one can derive the ideal gas equation: PV=nRT.
 
+## Usage of AI
 To solve the assignment I used ChatGpt (Weizmann subscription version) only once to know how to import verious types of constants (e.g., plack's constsnt, Boltzmann constant, etc.). Here is the conversation:
 
 ![image1](images/image-1.png)
