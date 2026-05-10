@@ -23,6 +23,9 @@ K = ((x F - 32)/1.8) + 273.15
 $$
 </p>
 
+In the code, TC = 0 for Degree Celcius unit by user.\
+TC = 1 for Fahrenheit unit by user.\
+TC = 3 for Kelvin unit by user.
 
 ## 1. User input directly
 For user input, nothing has been changed more from the Day02's q_trand-Aditya_Barman.py file, just used as defination (```def```), added error messeges, used the logic file, and saved as a new seperate file, q_trans_input.py.
@@ -45,7 +48,7 @@ For the calculation of command line, external ```sys.argv``` library is employed
 - Volume is in m<sup>3</sup> unit, if no Volume, put 1.
 Command line to run the file:
 ```sh
-python q_trans_cmdline.py <Mass> <Temp> <Volume>
+python q_trans_cmdline.py <Mass> <TC> <Temp> <Volume>
 ```
 
 - **Test file**\
