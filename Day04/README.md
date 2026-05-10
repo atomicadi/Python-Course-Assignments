@@ -23,7 +23,8 @@ K = ((x F - 32)/1.8) + 273.15
 $$
 </p>
 
-In the code, TC = 0 for Degree Celcius unit by user.\
+In the code,\
+TC = 0 for Degree Celcius unit by user.\
 TC = 1 for Fahrenheit unit by user.\
 TC = 3 for Kelvin unit by user.
 
