@@ -68,6 +68,5 @@ pytest test_calculate_q_trans.py
 - **AI Usage**\
 Generally, tried to write by myself by observing the previous submissions. But sometimes after writting the code, checked them with AI (ChatGpt, Weizamann Institute subscripted version). Here are the promts, that I used:
 ```sh
-Check the code and debug
-how to check digit and alphabate
+How to ignore alphabates in inputs and consider only -ve or +ve digits
 ```
