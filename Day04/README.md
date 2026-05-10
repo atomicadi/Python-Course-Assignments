@@ -7,11 +7,19 @@
 After coping the file "q_trand-Aditya_Barman.py" from Day02 folder into Day03, renamed it by "Calc_q_trans_library.py" and make it bussiness logic file. In the logic file scipy external library is used to get the constants that are employed in the calculation.\
 In this file a liitle modification is added, that is "Temperature checker" (TC). TC will check the digit given by user and then do a short unit conversion to convert ant temperature in Kelvin using unit conversion formula.
 
-- Kelvin to Degree Celsius:
+- Degree Celsius to Kelvin:
 </p>
 
 $$
 K = (x^o C + 273.15)
+$$
+</p>
+
+-  Fahrenheit to Kelvin:
+</p>
+
+$$
+K = ((x F - 32)/1.8) + 273.15
 $$
 </p>
 
