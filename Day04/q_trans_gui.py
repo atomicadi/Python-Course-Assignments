@@ -1,4 +1,4 @@
-# Writtenn by Aditya Barman; May 03, 2026 @weizmann
+# Copied from Day03 and edited by Aditya Barman; May 09, 2026 @weizmann
 # calculating translational partition function using GUI
 
 
@@ -8,9 +8,10 @@ from Calc_q_trans_library import calc_q_trans
 
 def run_calc():
     m = entry.get()
+    TC = entry.get()
     T = entry.get()
     V = entry.get()
-    q_trans, error = calc_q_trans(m, T, V)
+    q_trans, error = calc_q_trans(m, TC, T, V)
     if error:
         messagebox.showerror("Error", error)
     else:
@@ -24,7 +25,11 @@ tk.Label(root, text="Enter m  in kg:").pack(pady=5)
 entry = tk.Entry(root)
 entry.pack(pady=5)
 
-tk.Label(root, text="Enter T  in K:").pack(pady=5)
+tk.Label(root, text="Enter TC: if temperature is in Degree Celsius, put 0, if temperature is in Fahrenheit, put 1, and if temperature is in Kelvin, put 3:").pack(pady=5)
+entry = tk.Entry(root)
+entry.pack(pady=5)
+
+tk.Label(root, text="Enter T  in your chosen unit:").pack(pady=5)
 entry = tk.Entry(root)
 entry.pack(pady=5)
 
