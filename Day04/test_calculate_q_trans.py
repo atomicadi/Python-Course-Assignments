@@ -1,11 +1,11 @@
-# Writtenn by Aditya Barman; May 03, 2026 @weizmann
+# Copied from Day03 and edited by Aditya Barman; May 09, 2026 @weizmann
 # checking the calc algorithm using pytest
 
 from Calc_q_trans_library import calc_q_trans
 
 def test_valid_input():
     # Valid inputs
-    q_trans, error = calc_q_trans("5", "300", "1")
+    q_trans, error = calc_q_trans("5", "0", "300", "1")
     
     assert error is None
     assert q_trans is not None
@@ -14,6 +14,13 @@ def test_valid_input():
 def test_invalid_mass():
     # Non-numeric mass
     q_trans, error = calc_q_trans("a", "300", "1")
+    
+    assert q_trans is None
+    assert "mass" in error
+
+def test_invalid_TC():
+    # Non-numeric mass
+    q_trans, error = calc_q_trans("5", "a", "300", "1")
     
     assert q_trans is None
     assert "mass" in error
