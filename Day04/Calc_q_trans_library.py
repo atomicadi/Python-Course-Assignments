@@ -8,32 +8,30 @@ def calc_q_trans(m, TC, T, V):
     h = constants.h
     k_B = constants.k
 
-    if not m.isdigit():
+    if not m.replace('.', '', 1).lstrip('+-').isdigit():
         return None, "Oops! you have given either wrong mass or negative mass!"
     else:
-        m = int(m)
-    
+        m = float(m)
+
     if not TC.isdigit():
         return None, "Oops! you have given either wrong temperature checker or negative temperature checker!"
     else:
         TC = int(TC)
-
-    if not T.isdigit():
-        return None, "Oops! you have given either wrong temperature or negative temperature!"
+        
+    if not T.replace('.', '', 1).lstrip('+-').isdigit():
+        return None, "Oops! you have given an invalid temperature!"
     else:
-        T = int(T)
+        T = float(T)
 
-    if not V.isdigit():
+    if not V.replace('.', '', 1).lstrip('+-').isdigit():
         return None, "Oops! you have given either wrong volume or negative volume!"
     else:
-        V = int(V)
+        V = float(V)
 
     if TC == 0:
         T = T + 273.15
     elif TC == 1:
-        T = (T + 459.67)/1.8
-    else:
-        T = T
+        T = ((T -32) / 1.8) + 273.15
 
     q_trans = ((2 * math.pi * m * k_B * T) / h**2)**(3/2) * V
 
