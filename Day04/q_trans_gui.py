@@ -16,10 +16,10 @@ def run_calc():
         messagebox.showerror("Error", error)
     else:
         label_res.config(text=f"The value of translational partition function is {q_trans:.2e}")
-                
+
 root = tk.Tk()
 root.title("Calculating Translational Partition function")
-root.geometry("600x400")
+root.geometry("800x400")
 
 tk.Label(root, text="Enter m  in kg:").pack(pady=5)
 entry = tk.Entry(root)
