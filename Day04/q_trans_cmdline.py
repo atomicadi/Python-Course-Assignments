@@ -4,13 +4,14 @@
 import sys
 from Calc_q_trans_library import calc_q_trans
 
-if len(sys.argv) < 4:
+if len(sys.argv) < 5:
     print(f"Please, check the readme file to run properly! and tey again")
 else:
     m = sys.argv[1]
-    T = sys.argv[2]
-    V = sys.argv[3]
-    q_trans, error = calc_q_trans(m, T, V)
+    m = sys.argv[2]
+    T = sys.argv[3]
+    V = sys.argv[4]
+    q_trans, error = calc_q_trans(m, TC, T, V)
     if error:
         print(error)
     else:
