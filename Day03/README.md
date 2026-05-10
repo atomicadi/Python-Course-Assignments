@@ -24,7 +24,7 @@ python q_trans_gui.py
 For the calculation of command line, external ```sys.argv``` library is employed where with the program file the user inputs are also provided. The file is saved as "q_trans_cmdline.py". Fot his interface, one have to put the input values with the script file as mentioned below.\
 - Mass in kg unit.
 - Temp is in K unit.
-- Volume is in m<sub>3</sub> unit, if no Volume, put 1.
+- Volume is in m<sup>3</sup> unit, if no Volume, put 1.
 Command line to run the file:
 ```sh
 python q_trans_cmdline.py <Mass> <Temp> <Volume>
