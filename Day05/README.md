@@ -3,7 +3,7 @@ Then the difference between CCSDT(Q)-CCSDT level have been shown which is indica
 
 For this assignment, the highest (Q) contribution and the lowest contribution are checked and then the average of them is calculated. In the next step, 0.5 is added with average value and considered as thereshold value. So, the (Q) contribution which is lied in between thereshold to highest, considered as highly correlated system (system with high correlation energy).
 
- ## Correlation Enrgy
+# Correlation Enrgy
 In quantum chemistry, correlation energy is the difference between the exact nonrelativistic electronic energy and the Hartree–Fock (HF) energy.
 
 Mathematically:
