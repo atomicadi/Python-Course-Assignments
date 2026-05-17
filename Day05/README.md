@@ -1,4 +1,4 @@
-In this assignment, a small snapshot of a full ESI dataset from a published paper of our group is used. The dataset is stored in an excel sheet and contains the species names (molecules), their Total Atomization Energy (TAE) at CCSDT/cc-pwCVTZ and CCSDT(Q)/cc-pwCVTZ level of throry.
+In this assignment, a small snapshot (Weizmann-4 (W4)) of a full ESI dataset from a published paper (https://pubs.acs.org/action/showCitFormats?doi=10.1021/acs.jpca.6c00467&ref=pdf) of our group is used (). The dataset is stored in an excel sheet and contains the species names (molecules), their Total Atomization Energy (TAE) at CCSDT/cc-pwCVTZ and CCSDT(Q)/cc-pwCVTZ level of throry.
 Then the difference between CCSDT(Q)-CCSDT level have been shown which is indicating the (Q) contributions in the different molecules.
 
 For this assignment, the highest (Q) contribution and the lowest contribution are checked and then the average of them is calculated. In the next step, 0.5 is added with average value and considered as thereshold value. So, the (Q) contribution which is lied in between thereshold to highest, considered as highly correlated system (system with high correlation energy).
