@@ -15,5 +15,10 @@ Since the Hartree–Fock method approximates electrons as moving independently i
 ## 1. Requirement(S)
 
 ## 2. How to run
+The excel file (W4-08_q-contri-dataset_Barman.xlsx) and the python script (data_sort.py) should be in same folder.
+```python data_sort.py```
+
+It will generate a output file () taht conatins the species with high correlation energy with their (Q) contributions.
+
 
 ## 3. AI usage
