@@ -12,7 +12,7 @@ E<sub>_corr_</sub> = E<sub>_exact_</sub>-E<sub>_HF_</sub>
 
 Since the Hartree–Fock method approximates electrons as moving independently in an average field, it misses the instantaneous electron–electron interactions. Correlation energy measures the energy lowering obtained when these interactions are treated more accurately.
 
-## 1. Requirement(S)
+## 1. Requirement(s)
 
 ## 2. How to run
 The excel file (W4-08_q-contri-dataset_Barman.xlsx) and the python script (data_sort.py) should be in same folder. The pyhton script can be run, using:
