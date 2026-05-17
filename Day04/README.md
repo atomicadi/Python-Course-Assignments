@@ -1,5 +1,5 @@
 # Day 04:
-- This assignment is the continuation of Day 03, in which the translational partition function (q<sub>trans</sub>) is calculated using 3 different interfaces using python like previous with some little interesting changes:
+=> This assignment is the continuation of Day 03, in which the translational partition function (q<sub>trans</sub>) is calculated using 3 different interfaces using python like previous with some little interesting changes:
 1. User input directly (using ```input()``` function)
 2. Graphical User Interface (GUI) using (using ```tkinter```)
 3. Command-line (using ```sys.argv```)
