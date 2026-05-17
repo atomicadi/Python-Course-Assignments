@@ -12,8 +12,8 @@ E<sub>_corr_</sub>=E<sub>_exact_</sub>-E<sub>_HF_</sub>
 
 Since the Hartree–Fock method approximates electrons as moving independently in an average field, it misses the instantaneous electron–electron interactions. Correlation energy measures the energy lowering obtained when these interactions are treated more accurately.
 
-## Requirement(S)
+## 1. Requirement(S)
 
-## How to run
+## 2. How to run
 
-## AI usage
+## 3. AI usage
