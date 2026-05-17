@@ -1,5 +1,5 @@
 # Day 04:
-=> This assignment is the continuation of Day 03, in which the translational partition function (q<sub>trans</sub>) is calculated using 3 different interfaces using python like previous with some little interesting changes:
+**=>** This assignment is the continuation of Day 03, in which the translational partition function (q<sub>trans</sub>) is calculated using 3 different interfaces using python like previous with some little interesting changes:
 1. User input directly (using ```input()``` function)
 2. Graphical User Interface (GUI) using (using ```tkinter```)
 3. Command-line (using ```sys.argv```)
@@ -52,20 +52,20 @@ Command line to run the file:
 python q_trans_cmdline.py <Mass> <TC> <Temp> <Volume>
 ```
 
-- **Test file**\
+**=> Test file**\
 Also a test file (test_calculate_q_trans.py) is generated which will check the code using the python tool ```pytest```.
 Command line to run the file:
 ```sh
 pytest test_calculate_q_trans.py
 ```
 
-- **Requirements**
+**=> Requirements**
 1. Scipy
 2. tkinter
 3. sys.argv
 4. pytest (for my case, installed by ```pip install pytest```)
 
-- **AI Usage**\
+**=> AI Usage**\
 Generally, tried to write by myself by observing the previous submissions. But sometimes after writting the code, checked them with AI (ChatGpt, Weizamann Institute subscripted version). Here are the promts, that I used:
 ```sh
 How to ignore alphabates in inputs and consider only -ve or +ve digits
