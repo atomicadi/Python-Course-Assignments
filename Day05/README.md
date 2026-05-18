@@ -16,7 +16,7 @@ Since the Hartree–Fock method approximates electrons as moving independently i
 ## 1. Requirement(s)
 1. For handeling the large dataset, "pandas" library is used here. One can install that using "pip":\
 ```pip install pandas```
-2. Here, the dataset is in Excel format and output is also generated as Excel dataset. To, read/write Excel dataset, "openpyxl" library is used. One can install that using "pip":\
+2. Here, the dataset is in Excel format and output is also generated as Excel datasheet. To, read/write Excel dataset, "openpyxl" library is used. One can install that using "pip":\
 ```pip install openpyxl```     
 
 ## 2. How to run
