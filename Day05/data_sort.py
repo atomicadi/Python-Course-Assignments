@@ -21,6 +21,6 @@ selected = df[
 
 output = selected[[species_col, value_col]]
 
-output.to_excel("output_static_correlation.xlsx", index=False)
+output.to_excel("output_high_correlation.xlsx", index=False)
 
 print("Normal termination")
