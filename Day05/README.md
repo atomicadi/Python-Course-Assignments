@@ -16,7 +16,7 @@ Since the Hartree–Fock method approximates electrons as moving independently i
 ## 1. Requirement(s)
 1. For handeling the large dataset, "pandas" library is used here. One can install that using "pip":\
 ```pip install pandas```
-2. Here, the dataset is in Excel format and output is also generated as Excel dataset. To, read/write Excel dataset, "openpyxl" library is used. One can install that using "piip":\
+2. Here, the dataset is in Excel format and output is also generated as Excel dataset. To, read/write Excel dataset, "openpyxl" library is used. One can install that using "pip":\
 ```pip install openpyxl```     
 
 ## 2. How to run
@@ -28,3 +28,5 @@ It will generate a output file (output_static_correlation.xlsx) that conatins th
 
 
 ## 3. AI usage
+The prompt I used for this in ChatGpt (Weizmann Institute subscripted version):\
+```I have generated the dataset file and now i want that it will check column 4, fine the highest value and lowest vale, then take the average and add +0.5 with that average and then check if the value is bw average+0.5 to highest then it will open a output and add that species name from column 1 and put that on the output with the coulmn 4 value```
