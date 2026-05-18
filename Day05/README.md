@@ -24,7 +24,7 @@ The excel file (W4-08_q-contri-dataset_Barman.xlsx) and the python script (data_
 
 ```python data_sort.py```
 
-It will generate a output file (output_static_correlation.xlsx) that conatins the species with high correlation energy with their (Q) contributions.
+It will generate a output file (output_high_correlation.xlsx) that conatins the species with high correlation energy with their (Q) contributions.
 
 
 ## 3. AI usage
