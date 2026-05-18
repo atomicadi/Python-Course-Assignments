@@ -29,4 +29,4 @@ It will generate a output file (output_static_correlation.xlsx) that conatins th
 
 ## 3. AI usage
 The prompt I used for this in ChatGpt (Weizmann Institute subscripted version):\
-```I have generated the dataset file and now i want that it will check column 4, fine the highest value and lowest vale, then take the average and add +0.5 with that average and then check if the value is bw average+0.5 to highest then it will open a output and add that species name from column 1 and put that on the output with the coulmn 4 value```
+```I have generated the dataset file and now i want that it will check column 4, find the highest value and lowest value, then take the average and add +0.5 with that average and then check if the value is bw (average +0.5) to highest then it will open a output and add that species name from column 1 and put that on the output with the coulmn 4 value```
