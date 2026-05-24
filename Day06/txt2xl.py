@@ -29,4 +29,4 @@ for col in df.columns[2:]:
 
 df.to_excel("enthalpy_dataset.xlsx", index=False)
 
-print(df.head())
+print("Normal Termination")
