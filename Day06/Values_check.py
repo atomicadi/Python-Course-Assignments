@@ -21,7 +21,6 @@ cols_to_keep = [
     G4MP2_col, G4_col, CBS_QBS_col
 ]
 
-# Conditions
 cond_G4MP2 = (
     (df["diff_B3LYP_frm_G4MP2"].abs() < df["diff_B3LYP_frm_G4"].abs()) &
     (df["diff_B3LYP_frm_G4MP2"].abs() < df["diff_B3LYP_frm_CBS_QBS"].abs())
@@ -37,12 +36,10 @@ cond_CBS = (
     (df["diff_B3LYP_frm_CBS_QBS"].abs() < df["diff_B3LYP_frm_G4"].abs())
 )
 
-# Select rows
 output_G4MP2 = df.loc[cond_G4MP2, cols_to_keep]
 output_G4 = df.loc[cond_G4, cols_to_keep]
 output_CBS = df.loc[cond_CBS, cols_to_keep]
 
-# Save to Excel files
 output_G4MP2.to_excel("output_G4MP2.xlsx", index=False)
 output_G4.to_excel("output_G4.xlsx", index=False)
 output_CBS.to_excel("output_CBS_QBS.xlsx", index=False)
