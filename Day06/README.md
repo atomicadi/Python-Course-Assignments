@@ -16,3 +16,6 @@ This dataset contains enthalpies of atomization for 100 randomly selected molecu
 ## 3. How to run
 1. To run the "txt2xl.py": ```python txt2xl.py```.
 2. To run the "Values_check.py": ```python Values_check.py```.
+
+## AI Usage
+Generally 
