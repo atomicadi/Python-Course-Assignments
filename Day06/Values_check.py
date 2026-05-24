@@ -8,12 +8,12 @@ stoicho_col = df.columns[1]
 B3LYP_col = df.columns[2]
 G4MP2_col = df.columns[3]
 G4_col = df.columns[4]
-CBS_QBS_col = df.column[5]
+CBS_QBS_col = df.columns[5]
 
 
 df["diff_B3LYP_frm_G4MP2"] = df[B3LYP_col] - df[G4MP2_col]
 df["diff_B3LYP_frm_G4"] = df[B3LYP_col] - df[G4_col]
-df["diff_B3LYP_frm_CBS_QBS_col"] = df[B3LYP_col] - df[CBS_QBS_col]
+df["diff_B3LYP_frm_CBS_QBS"] = df[B3LYP_col] - df[CBS_QBS_col]
 
 
 cols_to_keep = [
