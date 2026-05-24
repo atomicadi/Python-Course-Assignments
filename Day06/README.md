@@ -18,4 +18,6 @@ This dataset contains enthalpies of atomization for 100 randomly selected molecu
 2. To run the "Values_check.py": ```python Values_check.py```.
 
 ## AI Usage
-Generally 
+The prompt that is used for this assignment in ChatGpt (Weizmann Institute subscripted version):\
+```can i convert a .txt fiel in to excel file in python```
+```explain the code```
