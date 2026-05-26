@@ -1,4 +1,5 @@
-# Written and edited by Aditya Barman
+# Written and edited by Aditya Barman, Date: May 24, 2026; @Weizmann
+# Checking the closer value bw DFT and composite methods
 
 import pandas as pd
 
