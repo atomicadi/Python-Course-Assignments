@@ -1,6 +1,7 @@
 
 # Conventional Transition-State Theory in Python
-<img width="1262" height="654" alt="Untitled 001" src="https://github.com/user-attachments/assets/5a646242-bec2-4cc3-9a75-26979cee4825" />
+<img width="1829" height="949" alt="Untitled 001" src="https://github.com/user-attachments/assets/d24a0710-5160-439e-97ed-6ef32e5d0327" />
+
 
 The theory of reaction rates, published almost simultaneously by Henry Eyring and M. G. Evans, and M. Polanyi in 1935, is now referred to as conventional transition-state theory (CTST). This theory involves the same assumptions and approximations used in the calculations of equilibrium constants using statistical mechanics.\
 So after merging the statistical mechanics and chemical equilibrium and to calculate the CTST rate constant, the partition functins of both the reactants and the activated complex are needed. The total partition function of a molecule can be written as:
