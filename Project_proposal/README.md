@@ -12,7 +12,7 @@ So after merging the statistical mechanics and chemical equilibrium and to calcu
 
 
 $$
-q = \sum_i g_i e^{-\frac{ε_i}{k_BT}} ...... (1)
+q = \sum_i g_i e^{-\frac{ε_i}{k_BT}} \quad ...... (1)
 $$
 
 
@@ -23,7 +23,7 @@ Where the summation is taken over all energy levels. The energy ε<sub>i</sub> i
 
 
 $$
-ε_i = e_i + ν_i + r_i + t_i  ...... (2)
+ε_i = e_i + ν_i + r_i + t_i  \quad ...... (2)
 $$
 
 
@@ -34,7 +34,7 @@ Where, e<sub>i</sub> = electronic energy, ν<sub>i</sub> = vibrational energy, r
 
 
 $$
-q = \sum_i g_{e_i} e^{-\frac{e_i}{k_BT}}  g_{ν_i} e^{-\frac{ν_i}{k_BT}}  g_{r_i} e^{-\frac{r_i}{k_BT}}  g_{t_i} e^{-\frac{t_i}{k_BT}}  ...... (3)
+q = \sum_i g_{e_i} e^{-\frac{e_i}{k_BT}}  g_{ν_i} e^{-\frac{ν_i}{k_BT}}  g_{r_i} e^{-\frac{r_i}{k_BT}}  g_{t_i} e^{-\frac{t_i}{k_BT}}  \quad ...... (3)
 $$
 
 
@@ -45,7 +45,7 @@ Omitting the degeneracy, equation (3) may be written as:
 
 
 $$
-q = q_{e} q_{ν} q_{r} q_{t}  ...... (4)
+q = q_{e} q_{ν} q_{r} q_{t}  \quad ...... (4)
 $$
 
 
@@ -57,7 +57,7 @@ usually too high to make a significant contribution to the partition function, a
 
 
 $$
-q = q_{ν} q_{r} q_{t}  ...... (5)
+q = q_{ν} q_{r} q_{t}  \quad ...... (5)
 $$
 
 
@@ -68,19 +68,19 @@ The formula of separate partition functions are:
 
 
 $$
-q_{ν} (per \quad normal-mode) =  \frac{1}{(1 - e^{-\frac{hν}{k_BT}})}  ...... (6)
+q_{ν} (per \quad normal \quad mode) =  \frac{1}{(1 - e^{-\frac{hν}{k_BT}})}  \quad ...... (6)
 $$
 
 $$
-q_{r} (linear-molecule) =  \frac{8π^2Ik_BT}{σh^2}  ...... (7)
+q_{r} (linear \quad molecule) =  \frac{8π^2Ik_BT}{σh^2}  \quad ...... (7)
 $$
 
 $$
-q_{r} (nonlinear-molecule) =  \frac{8π^2(8π^3I_AI_BI_C)^{1/2}(k_BT)^{3/2}}{σh^3}  ...... (8)
+q_{r} (nonlinear \quad molecule) =  \frac{8π^2(8π^3I_AI_BI_C)^{1/2}(k_BT)^{3/2}}{σh^3}  \quad ...... (8)
 $$
 
 $$
-q_{t} =  \frac{(2πmk_BT)^{3/2}}{h^2}  ...... (9)
+q_{t} =  \frac{(2πmk_BT)^{3/2}}{h^2}  \quad ...... (9)
 $$
 </p>
 
@@ -89,22 +89,22 @@ Where, h = Planck constant, ν = normal-mode vibrational frequency, k<sub>B</sub
 
 
 $$
-I_{xx} = \sum_im_i(y_i^2 + z_i^2)  ......(11)
+I_{xx} = \sum_im_i(y_i^2 + z_i^2)  \quad ......(11)
 $$
 
 
 $$
-I_{yy} = \sum_im_i(z_i^2 + x_i^2)   ......(12)
+I_{yy} = \sum_im_i(z_i^2 + x_i^2)   \quad ......(12)
 $$
 
 
 $$
-I_{zz} = \sum_im_i(x_i^2 + y_i^2)  ......(13)
+I_{zz} = \sum_im_i(x_i^2 + y_i^2)  \quad ......(13)
 $$
 
 
 $$
-I_{xy} = -\sum_im_ix_iy_i = I_{yx}  ......(14)
+I_{xy} = -\sum_im_ix_iy_i = I_{yx}  \quad ......(14)
 $$
 
 
@@ -114,7 +114,7 @@ $$
 
 
 $$
-I_{yz} = -\sum_im_iy_iz_i = I_{zy}  ......(16)
+I_{yz} = -\sum_im_iy_iz_i = I_{zy}  \quad ......(16)
 $$
 
 
