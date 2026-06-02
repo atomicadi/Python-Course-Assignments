@@ -126,7 +126,7 @@ Finally, using equations (11)-(16), the moment of inertia tensor is generated.
   | I<sub>yx</sub> | I<sub>yy</sub> | I<sub>yz</sub> |
   | I<sub>zx</sub> | I<sub>zy</sub> | I<sub>zz</sub> |
 
-And to obtain the values of moment of inertia, the tensor matrix needed to be diagonalized.
+And to obtain the values of moment of inertia(s), the tensor matrix needed to be diagonalized.
 
 Now, if a reaction is
 <p align="center">
