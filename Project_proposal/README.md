@@ -166,7 +166,7 @@ In this project, the CTST rate constant is calculated by solving equation (10) u
 - a requirement.txt file will be added with the other files in directory.
 
 ## 5. Necessary installation
-
+- ```pip install -r requirements.txt```
 
 ## 6. How to run
 - ```python mother.py``` 
