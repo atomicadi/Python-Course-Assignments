@@ -167,6 +167,10 @@ After running this command, the CTST rate constant and related partition functio
 (i) NumPy\
 (ii) Scipy
 
+## 4. How to run
+```python mother.py``` 
+
+After running this command, the CTST rate constant and related partition function results are generated in the output file.
 
 [**N.B.** Here the reaction H + HBr = H<sub>2</sub> + Br is used as example for this code from the book Chemical Kinetics by K. J. Laidler]
 
