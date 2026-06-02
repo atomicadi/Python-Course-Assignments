@@ -84,7 +84,47 @@ q_{t} =  \frac{(2πmk_BT)^{3/2}}{h^2}  ...... (9)
 $$
 </p>
 
-Where, h = Planck constant, ν = normal-mode vibrational frequency, k<sub>B</sub> = Boltzmann constant, T = absolute temperature, I = moment of inertia for the linear molecule, (I<sub>A</sub>,I<sub>B</sub>, and I<sub>C</sub>) = moment of inertia for a nonlinear molecule about three axes at right angles, σ = symmetry number, m = mass of molecule
+Where, h = Planck constant, ν = normal-mode vibrational frequency, k<sub>B</sub> = Boltzmann constant, T = absolute temperature, I = moment of inertia for the linear molecule, (I<sub>A</sub>,I<sub>B</sub>, and I<sub>C</sub>) = moment of inertia for a nonlinear molecule about three axes at right angles, σ = symmetry number, m = mass of molecule. For solving the moment of inertia, the moment of inertia tensor (3x3) is generated first using the equations,
+<p align="center">
+
+
+$$
+I_{xx} = \sum_im_i(y_i^2 + z_i^2)  ......(11)
+$$
+
+
+$$
+I_{yy} = \sum_im_i(z_i^2 + x_i^2)   ......(12)
+$$
+
+
+$$
+I_{zz} = \sum_im_i(x_i^2 + y_i^2)  ......(13)
+$$
+
+
+$$
+I_{xy} = -\sum_im_ix_iy_i = I_{yx}  ......(14)
+$$
+
+
+$$
+I_{xz} = -\sum_im_ix_iz_i = I_{zx}  ......(15)
+$$
+
+
+$$
+I_{yz} = -\sum_im_iy_iz_i = I_{zy}  ......(16)
+$$
+
+
+</p>
+
+Finally, using equations (11)-(16), the moment of inertia tensor is generated.
+  | I<sub>xx</sub> | I<sub>xy</sub> | I<sub>xz</sub> |
+  |----------------|----------------|----------------|
+  | I<sub>yx</sub> | I<sub>yy</sub> | I<sub>yz</sub> |
+  | I<sub>zx</sub> | I<sub>zy</sub> | I<sub>zz</sub> |
 
 Now, if a reaction is
 <p align="center">
