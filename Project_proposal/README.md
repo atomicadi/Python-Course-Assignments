@@ -68,15 +68,15 @@ The formula of separate partition functions are:
 
 
 $$
-q_{ν} (per\ normal \quad mode) =  \frac{1}{(1 - e^{-\frac{hν}{k_BT}})}  \quad ...... (6)
+q_{ν} (per\ normal\ mode) =  \frac{1}{(1 - e^{-\frac{hν}{k_BT}})}  \quad ...... (6)
 $$
 
 $$
-q_{r} (linear \quad molecule) =  \frac{8π^2Ik_BT}{σh^2}  \quad ...... (7)
+q_{r} (linear\ molecule) =  \frac{8π^2Ik_BT}{σh^2}  \quad ...... (7)
 $$
 
 $$
-q_{r} (nonlinear \quad molecule) =  \frac{8π^2(8π^3I_AI_BI_C)^{1/2}(k_BT)^{3/2}}{σh^3}  \quad ...... (8)
+q_{r} (nonlinear\ molecule) =  \frac{8π^2(8π^3I_AI_BI_C)^{1/2}(k_BT)^{3/2}}{σh^3}  \quad ...... (8)
 $$
 
 $$
