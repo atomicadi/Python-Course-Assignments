@@ -167,13 +167,13 @@ After running this command, the CTST rate constant and related partition functio
 (i) NumPy\
 (ii) Scipy
 
-## 4. How to run
+## 5. How to run
 ```python mother.py``` 
 
 After running this command, the CTST rate constant and related partition function results are generated in the output file.
 
-[**N.B.** Here the reaction H + HBr = H<sub>2</sub> + Br is used as example for this code from the book Chemical Kinetics by K. J. Laidler]
 
-
-For more detailed information about CTST and example reaction, please check: Laidler, K. J., & Keith, J. **(1965)**. Chemical kinetics (Vol. 2). New York: McGraw-Hill.\
-And also for more information on moment of inertia tensor, please visit: Bernath, P. F. **(2020)**. Spectra of atoms and molecules. Oxford university press.
+**N.B.**
+- Here the reaction H + HBr = H<sub>2</sub> + Br is used as example for this code from the book Chemical Kinetics by K. J. Laidler.
+- For more detailed information about CTST and example reaction, please check: Laidler, K. J., & Keith, J. **(1965)**. Chemical kinetics (Vol. 2). New York: McGraw-Hill.
+- For more information on moment of inertia tensor, please visit: Bernath, P. F. **(2020)**. Spectra of atoms and molecules. Oxford university press.
