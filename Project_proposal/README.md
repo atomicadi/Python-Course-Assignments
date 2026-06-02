@@ -167,10 +167,13 @@ After running this command, the CTST rate constant and related partition functio
 (i) NumPy\
 (ii) Scipy
 
-a requirement.txt file will be added with the other files in directory.
+- a requirement.txt file will be added with the other files in directory.
 
-## 5. How to run
-```python mother.py``` 
+## 5. Necessary installation
+
+
+## 6. How to run
+- ```python mother.py``` 
 
 After running this command, the CTST rate constant and related partition function results are generated in the output file.
 
