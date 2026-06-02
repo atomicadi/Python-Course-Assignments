@@ -68,7 +68,7 @@ The formula of separate partition functions are:
 
 
 $$
-q_{ν} (per \: normal \quad mode) =  \frac{1}{(1 - e^{-\frac{hν}{k_BT}})}  \quad ...... (6)
+q_{ν} (per\:normal \quad mode) =  \frac{1}{(1 - e^{-\frac{hν}{k_BT}})}  \quad ...... (6)
 $$
 
 $$
