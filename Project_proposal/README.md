@@ -163,57 +163,9 @@ bash python mother.py
 
 After running this command, the CTST rate constant and related partition function results are generated in the output file.
 
-
-
-
-In this project, the CTST rate constant is calculated by solving equation (10) through Fortran programming. Herein 3 files (**mod_1_requirement_scratch.f90**, **mod2_partition.f90**, and **mother.f90**) are generated in which **mod_1_requirement_scratch.f90** is a module file that conatains the requirement values and calculations to solve the partition functions (eg Total mass, moment of inertia etc.). For solving the moment of inertia, the moment of inertia tensor (3x3) is generated first using the equations,
-<p align="center">
-
-
-$$
-I_{xx} = \sum_im_i(y_i^2 + z_i^2)  ......(11)
-$$
-
-
-$$
-I_{yy} = \sum_im_i(z_i^2 + x_i^2)   ......(12)
-$$
-
-
-$$
-I_{zz} = \sum_im_i(x_i^2 + y_i^2)  ......(13)
-$$
-
-
-$$
-I_{xy} = -\sum_im_ix_iy_i = I_{yx}  ......(14)
-$$
-
-
-$$
-I_{xz} = -\sum_im_ix_iz_i = I_{zx}  ......(15)
-$$
-
-
-$$
-I_{yz} = -\sum_im_iy_iz_i = I_{zy}  ......(16)
-$$
-
-
-</p>
-
-Finally, using equations (11)-(16), the moment of inertia tensor is generated.
-  | I<sub>xx</sub> | I<sub>xy</sub> | I<sub>xz</sub> |
-  |----------------|----------------|----------------|
-  | I<sub>yx</sub> | I<sub>yy</sub> | I<sub>yz</sub> |
-  | I<sub>zx</sub> | I<sub>zy</sub> | I<sub>zz</sub> |
-
-To obtain the values of moment of inertia, the tensor matrix is diagonalized using the external libraries (LAPACK and BLAS) and used according to the conditions of molecular types (eg, Linear, Spherical top, Prolet-symmertic top, etc.). On the other hand, **mod2_partition.f90** is the second module file which conatins the calculations of parition functions using the values of module file 1 and also the calculation of CTST rate constant.\
-Beside that **mother.f90** is the main file which gathered all the information by the user from the input file (**H_HBr.inp**) and link all the files through the command,
-```
-gfortran -o TST mod_1_requirement_scratch.f90 mod2_partition.f90 mother.f90 -llapack -lblas
-```
-and gives the executable file (**TST**), and at the end by typing a simple command (```./TST```) to run the executable file the result can be gererated as the form of a outpul file, **H_HBr.out**.
+## 4. Requirements
+(i) NumPy
+(ii) Scipy
 
 
 [**N.B.** Here the reaction H + HBr = H<sub>2</sub> + Br is used as example for this code from the book Chemical Kinetics by K. J. Laidler]
