@@ -12,7 +12,7 @@ So after merging the statistical mechanics and chemical equilibrium and to calcu
 
 
 $$
-q = \sum_i g_i e^{-\frac{ε_i}{k_BT}} \quad ...... (1)
+q = \sum_i g_i e^{-\frac{ε_i}{k_BT}} \quad...... (1)
 $$
 
 
@@ -23,7 +23,7 @@ Where the summation is taken over all energy levels. The energy ε<sub>i</sub> i
 
 
 $$
-ε_i = e_i + ν_i + r_i + t_i  \quad ...... (2)
+ε_i = e_i + ν_i + r_i + t_i  \quad...... (2)
 $$
 
 
@@ -45,7 +45,7 @@ Omitting the degeneracy, equation (3) may be written as:
 
 
 $$
-q = q_{e} q_{ν} q_{r} q_{t}  \quad ...... (4)
+q = q_{e} q_{ν} q_{r} q_{t}  \quad...... (4)
 $$
 
 
@@ -57,7 +57,7 @@ usually too high to make a significant contribution to the partition function, a
 
 
 $$
-q = q_{ν} q_{r} q_{t}  \quad ...... (5)
+q = q_{ν} q_{r} q_{t}  \quad...... (5)
 $$
 
 
@@ -68,19 +68,19 @@ The formula of separate partition functions are:
 
 
 $$
-q_{ν} (per\ normal\ mode) =  \frac{1}{(1 - e^{-\frac{hν}{k_BT}})}  \quad ...... (6)
+q_{ν} (per\ normal\ mode) =  \frac{1}{(1 - e^{-\frac{hν}{k_BT}})}  \quad...... (6)
 $$
 
 $$
-q_{r} (linear\ molecule) =  \frac{8π^2Ik_BT}{σh^2}  \quad ...... (7)
+q_{r} (linear\ molecule) =  \frac{8π^2Ik_BT}{σh^2}  \quad...... (7)
 $$
 
 $$
-q_{r} (nonlinear\ molecule) =  \frac{8π^2(8π^3I_AI_BI_C)^{1/2}(k_BT)^{3/2}}{σh^3}  \quad ...... (8)
+q_{r} (nonlinear\ molecule) =  \frac{8π^2(8π^3I_AI_BI_C)^{1/2}(k_BT)^{3/2}}{σh^3}  \quad...... (8)
 $$
 
 $$
-q_{t} =  \frac{(2πmk_BT)^{3/2}}{h^2}  \quad ...... (9)
+q_{t} =  \frac{(2πmk_BT)^{3/2}}{h^2}  \quad...... (9)
 $$
 </p>
 
@@ -89,32 +89,32 @@ Where, h = Planck constant, ν = normal-mode vibrational frequency, k<sub>B</sub
 
 
 $$
-I_{xx} = \sum_im_i(y_i^2 + z_i^2)  \quad ......(11)
+I_{xx} = \sum_im_i(y_i^2 + z_i^2)  \quad......(11)
 $$
 
 
 $$
-I_{yy} = \sum_im_i(z_i^2 + x_i^2)   \quad ......(12)
+I_{yy} = \sum_im_i(z_i^2 + x_i^2)   \quad......(12)
 $$
 
 
 $$
-I_{zz} = \sum_im_i(x_i^2 + y_i^2)  \quad ......(13)
+I_{zz} = \sum_im_i(x_i^2 + y_i^2)  \quad......(13)
 $$
 
 
 $$
-I_{xy} = -\sum_im_ix_iy_i = I_{yx}  \quad ......(14)
+I_{xy} = -\sum_im_ix_iy_i = I_{yx}  \quad......(14)
 $$
 
 
 $$
-I_{xz} = -\sum_im_ix_iz_i = I_{zx}  ......(15)
+I_{xz} = -\sum_im_ix_iz_i = I_{zx}  \quad......(15)
 $$
 
 
 $$
-I_{yz} = -\sum_im_iy_iz_i = I_{zy}  \quad ......(16)
+I_{yz} = -\sum_im_iy_iz_i = I_{zy}  \quad......(16)
 $$
 
 
@@ -143,7 +143,7 @@ then using all the formulas, finally the CSTS rate constant equation becomes,
 
 
 $$
-k = \frac{k_BT}{h} \frac{q_{‡}}{q_A q_B} e^{-\frac{E_0}{RT}}  ...... (10)
+k = \frac{k_BT}{h} \frac{q_{‡}}{q_A q_B} e^{-\frac{E_0}{RT}}  \quad...... (10)
 $$
 
 
