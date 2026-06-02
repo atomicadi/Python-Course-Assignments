@@ -157,12 +157,8 @@ In this project, the CTST rate constant is calculated by solving equation (10) u
 
 - The second file, **partition.py**, contains the calculation of translational, rotational, vibrational, and electronic partition functions using the values obtained from requirement_scratch.py. This file also includes the calculation of the CTST rate constant.
 
-- Finally, **mother.py** acts as the main Python file. It reads all required information from the input file, ```H_HBr.inp```, connects the functions from requirement_scratch.py and partition.py, and generates the final output file, ```H_HBr.out```. The program can be executed using the command:
-
-bash python mother.py 
-
-After running this command, the CTST rate constant and related partition function results are generated in the output file.
-
+- Finally, **mother.py** acts as the main Python file. It reads all required information from the input file, ```H_HBr.inp```, connects the functions from requirement_scratch.py and partition.py, and generates the final output file, ```H_HBr.out```.
+ 
 ## 4. Requirements
 (i) NumPy\
 (ii) Scipy
