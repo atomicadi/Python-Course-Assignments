@@ -164,7 +164,7 @@ bash python mother.py
 After running this command, the CTST rate constant and related partition function results are generated in the output file.
 
 ## 4. Requirements
-(i) NumPy
+(i) NumPy\
 (ii) Scipy
 
 
