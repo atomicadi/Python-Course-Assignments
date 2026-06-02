@@ -153,7 +153,7 @@ Where, q<sub>‡</sub> is the total partition function of activated complex, q<s
 
 ## 3. File(s) management
 In this project, the CTST rate constant is calculated by solving equation (10) using Python programming. Three Python files are generated: **requirement_scratch.py**, **partition.py**, and **mother.py**. 
-- The file **requirement_scratch.py** contains the required molecular data and calculations needed to solve the partition functions, such as total mass and moments of inertia. To calculate the moment of inertia, a 3 × 3 moment of inertia tensor is first constructed using equations (11)–(16). The tensor matrix is then diagonalized using Python scientific libraries such as NumPy and SciPy. The resulting principal moments of inertia are used according to the molecular type, such as linear, spherical top, prolate symmetric top, oblate symmetric top, or asymmetric top molecules.
+- The file **requirement_scratch.py** contains the required molecular data and calculations needed to solve the partition functions, such as total mass and moments of inertia. To calculate the moment of inertia, a [3×3] moment of inertia tensor is first constructed using equations (11)–(16). The tensor matrix is then diagonalized using Python scientific libraries such as NumPy and SciPy. The resulting principal moments of inertia are used according to the molecular type, such as linear, spherical top, prolate symmetric top, oblate symmetric top, or asymmetric top molecules.
 
 - The second file, **partition.py**, contains the calculation of translational, rotational, vibrational, and electronic partition functions using the values obtained from requirement_scratch.py. This file also includes the calculation of the CTST rate constant.
 
