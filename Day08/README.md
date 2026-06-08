@@ -24,9 +24,12 @@ Also a test files for both the logic and app webapplication are ("**test_q_trans
 ## 4. Necessary installation
 - ```pip install -r requirement.txt```
 
-## 4. AI Usage 
-Generally, tried to write by myself by observing the previous submissions. But sometimes after writting the code, checked them with AI (ChatGpt, Weizamann Institute subscripted version). Here are the promts, that I used:
-```sh
-How to ignore alphabates in inputs and consider only -ve or +ve digits
-```
+## 5. How to run
+To run the web application in the terminal:
+- ```python q_trans_app.py```
+After that a web link will be generated (```http://127.0.0.1:5000```). Copy that in web browser and by putting the required values, one can get the result.
+
+
+## 6. AI Usage 
+- How to use web application in python.
 
