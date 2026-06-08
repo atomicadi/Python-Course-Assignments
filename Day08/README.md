@@ -1,4 +1,4 @@
-# Day 04
+# Day 08
 This assignment is the continuation of Day 04, in which the translational partition function (q<sub>trans</sub>) is calculated using  web application.
  
 
