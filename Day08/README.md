@@ -18,7 +18,7 @@ Also a test files for both the logic and app webapplication are ("**test_q_trans
 3. flask
 4. pytest (for my case, installed by ```pip install pytest```)
 
-- a requirement.txt file will be added with the other files in directory.
+- a ```requirement.txt``` file will be added with the other files in directory.
 
 ## 4. AI Usage 
 Generally, tried to write by myself by observing the previous submissions. But sometimes after writting the code, checked them with AI (ChatGpt, Weizamann Institute subscripted version). Here are the promts, that I used:
