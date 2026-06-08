@@ -1,5 +1,5 @@
-# Day 04:
-**=>** This assignment is the continuation of Day 04, in which the translational partition function (q<sub>trans</sub>) is calculated using  web application.
+# Day 04
+This assignment is the continuation of Day 04, in which the translational partition function (q<sub>trans</sub>) is calculated using  web application.
  
 
 After coping the file "Calc_q_trans_library.py" from Day04 folder into Day08, renamed it by "**q_trans_logic.py**" and make it bussiness logic file. In the logic file scipy and math external libraries are used to get the constants that are employed in the calculation.\
