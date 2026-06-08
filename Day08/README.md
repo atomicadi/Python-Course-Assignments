@@ -9,14 +9,10 @@ For more details, see the README file of Day04: https://github.com/atomicadi/Pyt
 ## 1. Web application
 For the web application ```flask``` web framework of python is used here. The file is titled "**q_trans_app.py**".
 
-**=> Test file**\
-Also a test file (test_calculate_q_trans.py) is generated which will check the code using the python tool ```pytest```.
-Command line to run the file:
-```sh
-pytest test_calculate_q_trans.py
-```
+## 2. Test file
+Also a test files for both the logic and app webapplication are ("**test_q_trans_logic.py**", "**test_q_trans_app.py**") generated which will check the code using the python tool ```pytest```.
 
-**=> Requirements**
+## 3. Requirements
 1. Scipy
 2. tkinter
 3. sys.argv
