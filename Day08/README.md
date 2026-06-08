@@ -20,6 +20,10 @@ Also a test files for both the logic and app webapplication are ("**test_q_trans
 
 - a ```requirement.txt``` file is added with the other files in directory.
 
+
+## 4. Necessary installation
+- ```pip install -r requirement.txt```
+
 ## 4. AI Usage 
 Generally, tried to write by myself by observing the previous submissions. But sometimes after writting the code, checked them with AI (ChatGpt, Weizamann Institute subscripted version). Here are the promts, that I used:
 ```sh
